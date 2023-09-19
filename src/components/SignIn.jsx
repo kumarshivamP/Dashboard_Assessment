@@ -51,13 +51,13 @@ const SignIn = () => {
         </h3>
         <div className="w-6/12 flex justify-between ml-24 mb-9">
           <button
-            className="bg-white text-[#858585] flex text-sm py-2 px-7 rounded-md"
+            className="bg-white text-[#858585] flex text-sm py-2 px-5 rounded-md"
             onClick={googleSignIn}
           >
             <img className="w-4 mr-2.5" src={googleIcon} alt="" />
             Sign in With Google
           </button>
-          <button className="bg-white text-[#858585] flex text-sm py-2 px-7 rounded-md">
+          <button className="bg-white text-[#858585] flex text-sm py-2 px-5 rounded-md">
             <img className="w-4 mr-2.5" src={appleIcon} alt="" />
             Sign in With Apple
           </button>

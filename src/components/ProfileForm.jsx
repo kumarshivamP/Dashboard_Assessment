@@ -36,9 +36,10 @@ const ProfileForm = ({ setmodal, setUser, setProfile, user }) => {
               <div className="flex flex-col w-[40%]">
                 <p className="font-semibold text-lg mb-3">Basic</p>
                 <p
-                  className={`border-b-[6px] rounded-full border-${
-                    page === 1 ? "[#3F84F8]" : "[#D9D9D9]"
-                  }`}
+                  className={`border-b-[6px] rounded-full`}
+                  style={{
+                    borderColor: page === 1 ? "#3F84F8" : "#D9D9D9",
+                  }}
                 ></p>
               </div>
               <div className="flex flex-col w-[40%]">
@@ -46,9 +47,10 @@ const ProfileForm = ({ setmodal, setUser, setProfile, user }) => {
                   {page === 1 ? "Contact" : "Social"}
                 </p>
                 <p
-                  className={`border-b-[6px] rounded-full border-${
-                    page === 2 ? "[#3F84F8]" : "[#D9D9D9]"
-                  }`}
+                  className={`border-b-[6px] rounded-full `}
+                  style={{
+                    borderColor: page === 2 ? "#3F84F8" : "#D9D9D9",
+                  }}
                 ></p>
               </div>
             </div>
