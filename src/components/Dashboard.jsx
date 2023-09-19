@@ -108,7 +108,7 @@ const Dashboard = () => {
         <Navbar />
         <main className=" flex flex-col mt-10">
           <div className="flex justify-between">
-            <div className="bg-[#FFFFFF] w-72 h-32 rounded-lg px-7 py-5">
+            <div className="bg-[#FFFFFF] w-64 h-28 rounded-lg px-7 py-3 shrink">
               <div className="flex flex-col">
                 <div className="bg-[#7FCD93] w-8 h-8 rounded-full flex justify-center items-center">
                   <i className="fa-solid fa-money-bills text-[#FFF] text-xl"></i>
@@ -126,7 +126,7 @@ const Dashboard = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-[#FFFFFF] w-72 h-32 rounded-lg px-7 py-5">
+            <div className="bg-[#FFFFFF] w-64 h-28 rounded-lg px-7 py-3 shrink">
               <div className="flex flex-col">
                 <div className="bg-[#DEBF85] w-8 h-8 rounded-full flex justify-center items-center">
                   <i className="fa-solid fa-tags text-[#FFF] text-xl"></i>
@@ -144,7 +144,7 @@ const Dashboard = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-[#FFFFFF] w-72 h-32 rounded-lg px-7 py-5">
+            <div className="bg-[#FFFFFF] w-64 h-28 rounded-lg px-7 py-3 shrink">
               <div className="flex flex-col">
                 <div className="bg-[#ECA4A4] w-8 h-8 rounded-full flex justify-center items-center">
                   <i className="fa-regular fa-thumbs-up text-[#FFF] text-xl"></i>
@@ -162,7 +162,7 @@ const Dashboard = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-[#FFFFFF] w-72 h-32 rounded-lg px-7 py-5">
+            <div className="bg-[#FFFFFF] w-64 h-28 rounded-lg px-7 py-3 shrink">
               <div className="flex flex-col">
                 <div className="bg-[#A9B0E5] w-8 h-8 rounded-full flex justify-center items-center">
                   <i className="fa-solid fa-users text-[#FFF] text-xl"></i>
@@ -181,19 +181,19 @@ const Dashboard = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#FFFFFF] w-full h-80 mt-10 rounded-3xl px-8 py-2">
+          <div className="bg-[#FFFFFF] w-full h-72 mt-10 rounded-3xl px-8 py-2">
             <Bar data={dataBar} options={optionsBar} width={900} height={200} />
           </div>
           <div className="flex justify-between">
             <div
-              className="bg-[#FFFFFF] h-64 mt-9 rounded-lg px-6 py-2"
+              className="bg-[#FFFFFF] h-60 mt-9 rounded-lg px-6 py-2"
               style={{ width: "47%" }}
             >
               <Doughnut data={dataPie} options={optionsBar} height={100} />
             </div>
             {!isProfile ? (
               <div
-                className="bg-[#FFFFFF] h-64 mt-9 rounded-lg flex"
+                className="bg-[#FFFFFF] h-60 mt-9 rounded-lg flex"
                 style={{ width: "47%" }}
               >
                 <div className="m-auto">
@@ -210,7 +210,7 @@ const Dashboard = () => {
               </div>
             ) : (
               <div
-                className="bg-[#FFFFFF] h-64 mt-9 rounded-lg font-['Figtree'] relative"
+                className="bg-[#FFFFFF] h-60 mt-9 rounded-lg font-['Figtree'] relative"
                 style={{ width: "47%" }}
               >
                 <div className="flex flex-col">
